@@ -1,0 +1,13 @@
+
+*.pyc
+.DS_Store
+.installed.cfg
+bin/
+develop-eggs/
+eggs/
+src/itc.egg-info/
+src/tmp/
+src/itc/config/development.cfg
+src/public
+src/*/final/*
+logs

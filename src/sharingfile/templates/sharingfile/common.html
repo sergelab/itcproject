@@ -1,0 +1,18 @@
+{% extends 'sharingfile/base.html' %}
+
+{% block title %}{{ _('Sharing file closed area title') }}{% endblock %}
+
+{% block css -%}
+    {% assets 'css_sf' -%}
+        <link type="text/css" href="{{ ASSET_URL }}" rel="stylesheet" media="all" />
+    {%- endassets %}
+{%- endblock %}
+
+{% block js -%}
+    {% assets 'js_sf' -%}
+        <script type="text/javascript" src="{{ ASSET_URL }}"></script>
+    {%- endassets %}
+{%- endblock %}
+
+{% block body -%}
+{%- endblock %}

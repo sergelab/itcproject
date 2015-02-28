@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+
+{% block html_tag_params -%}<html>{%- endblock %}
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="Cache-Control" content="no-cache, max-age=0, must-revalidate, no-store" />
+        <title>{% block title %}{% endblock %}</title>
+        {% block css -%}{%- endblock %}
+        {% block js -%}{%- endblock %}
+    </head>
+    {% block body_tag_params -%}<body>{%- endblock %}
+        {% block body -%}{%- endblock %}
+    </body>
+</html>
